@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    height: 24px;
+    width: 24px;
+    fill: green;
+}
+.iconsB{
+    height: 16px;
+    width: 16px;
+    fill: green;
+}
+
+.AlbcovImg{
+    height: 180px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.Main-Box{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: auto 8px 1fr;
+}
+
+
+
+.Left-Box .Home-Box{
+    height: 156px;
+    border-radius: 8px;
+    width: 280px;
+    background-color: #121212;
+}
+.Home-Box .Logo{
+    height: 44px;
+}
+
+.Home-Box .Logo img{
+    width: 78px;
+    height: 24px;
+    margin: 20px 0px 0px;
+    padding: 0px 24px;
+}
+.Home-Box ul{
+    padding: 8px 12px;
+}
+
+.Home-Box ul li{
+    list-style: none;
+    display: flex;
+    padding: 4px 12px;
+    height: 40px;
+    
+}
+
+
+.Home-Box ul li a{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #aaa;
+    width: 232px;
+}
+.ed{
+    color: #fff;
+}
+    
+    
+.Home-Box ul li a Span{
+    margin: 0px 0px 0px 20px;
+}
+
+.Libr-Box{
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 280px;
+    background-color: #121212;
+    height: 462px;
+}
+.Libr-Box .libradd{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    margin: 8px 12px;
+    justify-content: space-between;
+
+}
+.libpacket{
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    color: #aaa;
+    margin-right: 70px;
+    font-size: 15PX;
+}
+.addres{
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-cont {
+    padding: 0px 8px;
+    height: 208px;
+    overflow: auto;
+}
+.empt-paly{
+    margin: 8px 0px;
+    padding: 16px 20px;
+    background-color: #242424;
+    border-radius: 8px;
+}
+.empt-paly .playtitle{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+.playtitle span{
+    font-weight: 400;
+    font-size: 14px;
+}
+.play-cont .buton{
+    height: 32px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+
+.size-adjust{
+    width: 9px;
+}
+.Righ-Box{
+    background-color: #121212;
+    
+    border-radius: 8px;
+    padding: 0px 12px 8px 12px;
+    height: 618px;
+    overflow: auto;
+}
+.Righ-Box .Upper-Box{
+    height: 35px;
+    padding: 16px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    z-index: 100;
+}
+
+.Righ-Box .Upper-Box .backI{
+    background-color: #000000B3;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+}
+.Righ-Box .Upper-Box .upperButtons{
+    background-color: none;
+}
+
+.Righ-Box .Upper-Box .upperButtons .btn1{
+    color: #aaa;
+    font-weight: bold;
+    padding: 8px 32px 8px 8px;
+}
+
+.Righ-Box .Upper-Box .upperButtons .btn{
+    padding: 14px 32px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 32px;
+    font-weight: bold;
+}
+.Righ-Box .Upper-Box .upperButtons .btn:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+}
+
+.Righ-Box .Midle-Box{
+    padding: 8px 12px;
+}
+.Righ-Box .Midle-Box .gap-cont{
+    height: 40px;
+}
+
+.Righ-Box .Midle-Box .Mid-BconT .contid{
+    height: 39px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.Righ-Box .Midle-Box .Mid-BconT .reak{
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.reak .BoxA{
+    height: 260px;
+    width: 215px;
+    background-color: #1b1b1b;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.reak .BoxA:hover{
+    background-color: #1f1f1f;
+}
+.reak .BoxA:hover .pac{
+    visibility:visible;
+}
+.reak .BoxA .BoxAin{
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.reak .BoxA .BoxAin .BoxATXT{
+    margin-top: 8px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    color: #aaa;
+    font-size: 14px;
+}
+.reak .BoxA .BoxAin .BoxATXT .boxTitle{
+    font-size: 16px;
+    color: #fff;
+}
+.pac {
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    margin: 75px 0px 0px 135px;
+    transition-delay: 2ms;
+}
+
+
+
+footer{
+    height: 82px;
+    background-color: #000;
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .midFoot{
+    width: 625px;
+}
+footer .uppperFoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+}
+
+footer .uppperFoot .playbutton{
+    height: 32px;
+    width: 32px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    cursor: pointer;
+    margin: 0px 24px;
+}
+
+footer .downerFoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+}
+
+footer .downerFoot .motter{
+    width: 600px;
+    height: 5px;
+    background-color: hsla(0,0%,100%,.3);
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+footer .downerFoot .motter .progress{
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
+
+footer .lefFoot{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+footer .rigFoot{
+    width: 300px;
+}
+
+footer .lefFoot .tCov{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 8px;
+}
+footer .lefFoot .tCov .tcoArtis{
+    font-size: 12px;
+    color: #aaa;
+}
+
+footer .lefFoot .tik{
+    border-radius: 4px;
+}
+
+
+

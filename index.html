@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="32x32" href="./assets/spotifyicon.png">
+    <link rel="stylesheet" href="./asthetics.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="Main-Box">
+        <div class="Left-Box">
+            <div class="Home-Box">
+                <div class="Logo"><img src="./assets/spot.svg"></div>
+                <ul>
+                    <li ><a href="#"><img class="icons" src="./assets/home.svg"><span class="ed">Home</span></a></li>
+                    <li><a href="#"><img class="icons" src="./assets/search.svg"><span>Search</span></a></li>
+                </ul>
+            </div>
+            <div class="Libr-Box">
+                <div class="libradd">
+                    <div class="libpacket">
+                        <img class="icons" src="./assets/library.svg">
+                        <span>Your Library</span>
+                    </div>
+                    
+                    <img class="iconsB" src="./assets/add.svg">
+                </div>
+                <div class="play-cont">
+                    <div class="empt-paly">
+                        <div class="playtitle">
+                            Create your first playlist
+                            <span>It's easy, we'll help you</span>
+                        </div>
+                        <div class="buton">Create Playlist</div>
+                    </div>
+                    <div class="empt-paly">
+                        <div class="playtitle">
+                            Let's find some podcasts to follow                           
+                            <span>We'll keep you updated on new episodes</span>
+                        </div>
+                        <div class="buton">Browse Podcasts</div>
+                    </div>
+                </div>
+               <div class="addres">
+                <div class="langbtn">
+                    By Blood's 2024 spotify &#xa9;
+                </div>
+                
+               </div> 
+            </div>
+        </div>
+        <div class="size-adjust"></div>
+        <div class="Righ-Box">
+            <div class="Upper-Box">
+                <div class="backI"><img src="./assets/webInter/backing.svg" class="iconsB"></div>   
+                <div class="upperButtons">
+                    <span class="btn1">Sign up</span>
+                    <span class="btn">Buy Premium</span>
+                </div>
+            </div>
+            <div class="Midle-Box">
+                <div class="Mid-BconT">
+                    <div class="contid">Recently played</div>
+                    <div class="reak">
+                        <div class="BoxA" onclick="playper(0,0)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/RECENT/1AlbRE.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Whishes</span>
+                                    <span>Hasan Raheem</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(0,1)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/RECENT/2AlbRE.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Bachke BachkeI</span>
+                                    <span>Karan Aujla</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(0,2)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/RECENT/3AlbRE.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Hone Do Jo Hota Hai</span>
+                                    <span>OAFF, Savera</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(0,4)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/RECENT/4AlbRE.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Mazaak</span>
+                                    <span>Anuv Jain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(0,6)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/RECENT/5AlbRE.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Dil Se Dil Tak</span>
+                                    <span>Akashdeep Sengupta</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gap-cont"></div>
+                    <div class="contid">Made For Zombie</div>
+                    <div class="reak">
+                        <div class="BoxA" onclick="playper(0,0)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/2Alb.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Top 50 - India</span>
+                                    <span>By Spotify</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(4,0)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/1Alb.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Dinner Time Melodies</span>
+                                    <span>By Spotify</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(1,0)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/3Alb.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">This is Diljit Dosanjh</span>
+                                    <span>By Spotify</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA" onclick="playper(3,0)">
+                            <div class="BoxAin">
+                                <img src="./cover/AlbCov/5Alb.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">Lofi Beats</span>
+                                    <span>By Spotify</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="BoxA">
+                            <div class="BoxAin" onclick="playper(2,0)">
+                                <img src="./cover/AlbCov/7Alb.jpg" class="AlbcovImg">
+                                <div class="pac"><img class="iconsB" src="./assets/controll/pause.svg"></div>
+                                <div class="BoxATXT">
+                                    <span class="boxTitle">ALIA BHATT - Hits</span>
+                                    <span>By Spotify</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="lefFoot">
+            <img class="tik" src="./cover/defaultAlb/1cover.jpg" width="56px" height="56px">
+            <div class="tCov">
+                <span class="tcosong">Whishes</span>
+                <span class="tcoArtis">Hasan Raheem</span>
+            </div>
+        </div>
+        <div class="midFoot">
+            <div class="uppperFoot">
+                <div>
+                    <img id="previous" src="./assets/controll/backmod.svg" class="iconsB">
+                </div>
+                <div class="playbutton" onclick="musicplay()">
+                    <img id="ppb" class="iconsB" src="./assets/controll/pause.svg">
+                </div>
+                <div>
+                    <img id="next" src="./assets/controll/backmod.svg" class="iconsB" style="transform: rotate(180deg);">
+                </div>
+                
+            </div>
+            <div class="downerFoot">
+                <div class="motter">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </div>
+        <div class="rigFoot"></div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
